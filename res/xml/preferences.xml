@@ -35,6 +35,7 @@
 
         <!-- Enable CMAS AMBER alerts -->
         <SwitchPreference android:defaultValue="true"
+                          android:icon="@drawable/ic_amber"
                           android:key="enable_cmas_amber_alerts"
                           android:summary="@string/enable_cmas_amber_alerts_summary"
                           android:title="@string/enable_cmas_amber_alerts_title" />
@@ -42,12 +43,14 @@
 
         <!-- Enable CMAS Extreme Threat alerts -->
         <SwitchPreference android:defaultValue="true"
+                            android:icon="@drawable/ic_extreme"
                             android:key="enable_cmas_extreme_threat_alerts"
                             android:summary="@string/enable_cmas_extreme_threat_alerts_summary"
                             android:title="@string/enable_cmas_extreme_threat_alerts_title" />
 
         <!-- Enable CMAS Severe Threat alerts -->
         <SwitchPreference android:defaultValue="true"
+                            android:icon="ic_severe"
                             android:key="enable_cmas_severe_threat_alerts"
                             android:summary="@string/enable_cmas_severe_threat_alerts_summary"
                             android:title="@string/enable_cmas_severe_threat_alerts_title" />
@@ -72,6 +75,7 @@
                           android:title="@string/enable_area_update_info_alerts_title" />
 
         <Preference android:key="emergency_alert_history"
+                    android:icon="@drawable/ic_alert_history"
                     android:title="@string/emergency_alert_history_title" />
 
     </PreferenceCategory>
@@ -82,10 +86,12 @@
                         android:key="category_alert_preferences">
 
         <SwitchPreference android:defaultValue="true"
+                          android:icon="@drawable/ic_vibrate"
                           android:key="enable_alert_vibrate"
                           android:title="@string/enable_alert_vibrate_title" />
 
         <ListPreference android:key="alert_reminder_interval"
+                        android:icon="@drawable/ic_alert"
                         android:title="@string/alert_reminder_interval_title"
                         android:entries="@array/alert_reminder_interval_entries"
                         android:entryValues="@array/alert_reminder_interval_values"
