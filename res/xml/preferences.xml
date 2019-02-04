@@ -50,7 +50,7 @@
 
         <!-- Enable CMAS Severe Threat alerts -->
         <SwitchPreference android:defaultValue="true"
-                            android:icon="ic_severe"
+                            android:icon="@drawable/ic_severe"
                             android:key="enable_cmas_severe_threat_alerts"
                             android:summary="@string/enable_cmas_severe_threat_alerts_summary"
                             android:title="@string/enable_cmas_severe_threat_alerts_title" />
